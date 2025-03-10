@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+
+# Superset Database (default SQLite)
+superset.db
+instance/
+
+# Credentials and Config Files
+config.py
+config.yaml
+secrets.env
+*.pem
+
+# Logs & Cache
+logs/
+*.log
+*.pid
+*.swp
+cache/
+*.sqlite
+
+# Jupyter Notebooks (if applicable)
+.ipynb_checkpoints/
+
+# Excel & Data Files
+*.csv
+*.xls
+*.xlsx
+
+# Node.js (if using Superset frontend development)
+node_modules/
+*.lock
+
+# Docker (if using Docker for deployment)
+docker-compose.override.yml
+.env
